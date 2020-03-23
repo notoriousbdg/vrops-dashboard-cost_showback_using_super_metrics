@@ -1,5 +1,5 @@
 
-# Cost Showback using Super Metrics Dashboard for vRealize Operations 8.0
+# Cost Showback using Super Metrics Dashboard for vRealize Operations 7.5 and 8.0
 ---------
 
 Use this [vRealize Operations](https://www.vmware.com/products/vrealize-operations.html) dashboard to show the cost of VMs on various object types.  Supported objects consist of Custom Group types of Security Zone, Service Level Objective, Function, Location, Department, and Environment; Virtual Machine folders from vSphere; vRA 8 constructs of Project, Organization, and Cloud Zone; and Applications and Application Tiers.
@@ -28,6 +28,6 @@ Note: Additional objects can be added to the super metrics and to each widget an
 
 ## Support
 
-This dashboard requires vRealize Operation 8.0 Advanced or Enterprise edition.
+This dashboard requires vRealize Operation 7.5 or 8.0 Advanced or Enterprise edition.
 
 Please open an [issue](https://github.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/issues) for feedback.
