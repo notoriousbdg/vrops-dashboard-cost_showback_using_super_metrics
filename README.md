@@ -16,8 +16,8 @@ Use this [vRealize Operations](https://www.vmware.com/products/vrealize-operatio
 4. Enable Super Metrics that contain with `Cost of Child VMs` in their name for Security Zone, Service Level Objective, Function, Location, Department, Environment, Virtual Machine Folder, Project, Organization, Cloud Zone, Applications and Tier object types only.  Do not enable the super metric on the row called `All Object Types`.
 ![Policy Metrics](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/master/Policy_Metrics.png)
 5. Import the custom groups at `Environment` / `Custom Groups` / `Gear Icon` / `Import Custom Group(s)`  
-![Import Custom Groups](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cluster_capacity/master/Import_CustomGroup.png)
-6. Click `Browse...` then select the file named [CustomGroups.json](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cluster_capacity/master/CustomGroups.json)
+![Import Custom Groups](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/master/Import_CustomGroup.png)
+6. Click `Browse...` then select the file named [CustomGroups.json](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/master/CustomGroups.json)
 7. Import the view at `Dashboards` / `Views` / `Import...`  
 ![Import View](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/master/Import_View.png)
 8. Click `Browse...` then select the file named [Views.zip](https://github.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/raw/master/Views.zip)
