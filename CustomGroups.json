@@ -1,0 +1,143 @@
+{
+   "customGroups": [{
+      "resourceKind": "Function",
+      "membershipDefinition": {
+         "ruleGroups": [
+            {
+               "resourceKind": "BusinessService",
+               "adapterKind": "Container",
+               "rules": []
+            },
+            {
+               "resourceKind": "Department",
+               "adapterKind": "Container",
+               "rules": []
+            },
+            {
+               "resourceKind": "Environment",
+               "adapterKind": "Container",
+               "rules": []
+            },
+            {
+               "resourceKind": "Function",
+               "adapterKind": "Container",
+               "rules": []
+            },
+            {
+               "resourceKind": "Location",
+               "adapterKind": "Container",
+               "rules": []
+            },
+            {
+               "resourceKind": "Security Zone",
+               "adapterKind": "Container",
+               "rules": []
+            },
+            {
+               "resourceKind": "Service Level Objective",
+               "adapterKind": "Container",
+               "rules": []
+            },
+            {
+               "resourceKind": "TENANT",
+               "adapterKind": "VCACAdapter",
+               "rules": []
+            },
+            {
+               "resourceKind": "BUSINESSGROUP",
+               "adapterKind": "VCACAdapter",
+               "rules": []
+            },
+            {
+               "resourceKind": "RESERVATION",
+               "adapterKind": "VCACAdapter",
+               "rules": []
+            },
+            {
+               "resourceKind": "CloudZone",
+               "adapterKind": "CASAdapter",
+               "rules": []
+            },
+            {
+               "resourceKind": "Organization",
+               "adapterKind": "CASAdapter",
+               "rules": []
+            },
+            {
+               "resourceKind": "VMFolder",
+               "adapterKind": "VMWARE",
+               "rules": []
+            },
+            {
+               "resourceKind": "DEPLOYMENT",
+               "adapterKind": "VCACAdapter",
+               "rules": []
+            },
+            {
+               "resourceKind": "Project",
+               "adapterKind": "CASAdapter",
+               "rules": []
+            }
+         ],
+         "excludedResources": [
+            {
+               "resourceKind": "Environment",
+               "adapterKind": "Container",
+               "name": "Non vSAN Datastores"
+            },
+            {
+               "resourceKind": "Location",
+               "adapterKind": "Container",
+               "name": "My AWS Regions"
+            },
+            {
+               "resourceKind": "Environment",
+               "adapterKind": "Container",
+               "name": "vSAN Datastores"
+            }
+         ]
+      },
+      "adapterKind": "Container",
+      "autoResolveMembership": true,
+      "name": "Objects for Showback Reporting",
+      "description": "",
+      "started": true
+   }],
+   "customGroupTypes": [{
+      "resourceKind": "Function",
+      "localization": [
+         {
+            "resourceKindName": "Funktion",
+            "locale": "de"
+         },
+         {
+            "resourceKindName": "功能",
+            "locale": "zh_TW"
+         },
+         {
+            "resourceKindName": "기능",
+            "locale": "ko"
+         },
+         {
+            "resourceKindName": "機能",
+            "locale": "ja"
+         },
+         {
+            "resourceKindName": "Function",
+            "locale": "en"
+         },
+         {
+            "resourceKindName": "功能",
+            "locale": "zh_CN"
+         },
+         {
+            "resourceKindName": "Fonction",
+            "locale": "fr"
+         },
+         {
+            "resourceKindName": "Función",
+            "locale": "es"
+         }
+      ]
+   }]
+}

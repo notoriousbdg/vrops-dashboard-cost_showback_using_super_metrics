@@ -15,13 +15,16 @@ Use this [vRealize Operations](https://www.vmware.com/products/vrealize-operatio
 ![Policy Library](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/master/Policy_Library.png)
 4. Enable Super Metrics that contain with `Cost of Child VMs` in their name for Security Zone, Service Level Objective, Function, Location, Department, Environment, Virtual Machine Folder, Project, Organization, Cloud Zone, Applications and Tier object types only.  Do not enable the super metric on the row called `All Object Types`.
 ![Policy Metrics](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/master/Policy_Metrics.png)
-5. Import the view at `Dashboards` / `Views` / `Import...`  
+5. Import the custom groups at `Environment` / `Custom Groups` / `Gear Icon` / `Import Custom Group(s)`  
+![Import Custom Groups](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cluster_capacity/master/Import_CustomGroup.png)
+6. Click `Browse...` then select the file named [CustomGroups.json](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cluster_capacity/master/CustomGroups.json)
+7. Import the view at `Dashboards` / `Views` / `Import...`  
 ![Import View](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/master/Import_View.png)
-6. Click `Browse...` then select the file named [Views.zip](https://github.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/raw/master/Views.zip)
-7. Import the dashboard at `Dashboards` / `Actions` / `Manage Dashboards` / `Import Dashboards`  
+8. Click `Browse...` then select the file named [Views.zip](https://github.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/raw/master/Views.zip)
+9. Import the dashboard at `Dashboards` / `Actions` / `Manage Dashboards` / `Import Dashboards`  
 ![Import Dashboard](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/master/Import_Dashboard.png)
-8. Click `Browse...` then select the file named [Dashboard.zip](https://github.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/raw/master/Dashboard.zip)
-9. The dashboard should now be available in in the dashboard list  
+10. Click `Browse...` then select the file named [Dashboard.zip](https://github.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/raw/master/Dashboard.zip)
+11. The dashboard should now be available in in the dashboard list  
 ![Dashboard List](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/master/Dashboard_List.png)
 
 Note: Additional objects can be added to the super metrics and to each widget and view in the dashboard.
