@@ -26,6 +26,7 @@ Use this [vRealize Operations](https://www.vmware.com/products/vrealize-operatio
 10. Click `Browse...` then select the file named [Dashboard.zip](https://github.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/raw/master/Dashboard.zip)
 11. The dashboard should now be available in in the dashboard list  
 ![Dashboard List](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/master/Dashboard_List.png)
+12. The super metrics won't show cost until the next cost calculation run.  To manually run cost calculations to validate the super metrics, click `Run` at `Administration` / `Configuration` / `Cost Settings` / `Cost Calculation Status`.
 
 Note: Additional objects can be added to the super metrics and to each widget and view in the dashboard.
 
