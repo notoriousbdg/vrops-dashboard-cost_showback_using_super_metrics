@@ -1,5 +1,4 @@
-
-# Cost Showback using Super Metrics Dashboard for vRealize Operations 7.5 and 8.0
+# Cluster Capacity Dashboard for vRealize Operations 8.0, 8.1, and Cloud
 ---------
 
 Use this [vRealize Operations](https://www.vmware.com/products/vrealize-operations.html) dashboard to show the cost of VMs on various object types.  Supported objects consist of Custom Group types of Security Zone, Service Level Objective, Function, Location, Department, and Environment; Virtual Machine folders from vSphere; vRA 8 constructs of Project, Organization, and Cloud Zone; and Applications and Application Tiers.
@@ -32,6 +31,16 @@ Note: Additional objects can be added to the super metrics and to each widget an
 
 ## Support
 
-This dashboard requires vRealize Operation 7.5 or 8.0 Advanced or Enterprise edition.
+This dashboard requires vRealize Operation 8.0 or 8.1 Advanced or Enterprise edition or vRealize Operations Cloud.
 
 Please open an [issue](https://github.com/notoriousbdg/vrops-dashboard-cost_showback_using_super_metrics/issues) for feedback.
+
+## Changelog
+2020-03-19
+* Initial release
+
+2020-03-31
+* Added missing content
+
+2020-06-04
+* Update supported versions
